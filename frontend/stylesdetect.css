@@ -1,0 +1,40 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+  }
+
+body {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* font-family:  'fantasy',Jazz LET; */
+    font-family: "Montserrat", sans-serif;
+    padding: 0px;
+    background-color: #F3F8FF;
+    justify-content: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.custom-file {
+    display: inline-block;
+}
+
+.card-header {
+    font-size: 100px; /* Increase the font size */
+    font-weight: bold; /* Make the font bold */
+    text-align: right; /* Align the text to the right */
+    color: #343a40; /* Dark color for better readability */
+}
+
+/* Style to make the file input cover the button */
+.custom-file-label::after {
+    right: 0;
+}
